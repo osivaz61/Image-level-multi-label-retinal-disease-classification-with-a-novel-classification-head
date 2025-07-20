@@ -5,3 +5,5 @@ This is the startup model of the proposed model. You need to integrate the warm-
 Finally, the dataloader should be revised to return at least four multi-label images per batch, thereby increasing the classification performance with SNDL loss.
 
 needs 4 V100 GPUs (16 GB GPU memory per GPU)
+
+Note: This code implementation is image-level.
