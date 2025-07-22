@@ -11,3 +11,5 @@ needs 4 V100 GPUs (16 GB GPU memory per GPU)
 Note: This code implementation is image-level.
 
 The novel shunted cross-attention (SCA) classification head is inspired by MLDecoder and Shunted Transformer.
+
+Day by day, it will be updated.
