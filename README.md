@@ -7,3 +7,5 @@ Finally, the dataloader should be revised to return at least four multi-label im
 needs 4 V100 GPUs (16 GB GPU memory per GPU)
 
 Note: This code implementation is image-level.
+
+The novel shunted cross-attention (SCA) classification head is inspired by MLDecoder and Shunted Transformer.
