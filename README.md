@@ -1,4 +1,6 @@
-Image-level multi-label OIA-ODIR classification
+Image-level multi-label OIA-ODIR classification (Note: This code implementation is image-level.)
+
+YOU CAN EASILY ADAPT THE SCA CLASSIFICATION HEAD TO YOUR PROBLEMS (NOTE: FOR BETTER PERFORMANCE, THE INPUT IMAGE SIZE SHOULD BE 384 OR BIGGER.)
 
 This model includes the swinV2-Base384, SCA classification head, SNDL loss, and ASAM optimizer. 
 
@@ -7,8 +9,6 @@ This is the startup model of the proposed model. You need to integrate the warm-
 Finally, the dataloader should be revised to return at least four multi-label images per batch, thereby increasing the classification performance with SNDL loss.
 
 needs 4 V100 GPUs (16 GB GPU memory per GPU)
-
-Note: This code implementation is image-level.
 
 The novel shunted cross-attention (SCA) classification head is inspired by MLDecoder and Shunted Transformer.
 
